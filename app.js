@@ -14,7 +14,7 @@ let func = async () => {
                 <img src="${data.images[2]}">
                 <div class="card-down">
                     <h3>${data.title.slice(0, 10)}</h3>
-                    <h3>${data.price}</h3>
+                    <h3> $${data.price}</h3>
                 </div>
                 <button>Buy Now</button>
             </div>
