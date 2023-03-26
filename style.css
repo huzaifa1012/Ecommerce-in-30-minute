@@ -1,0 +1,59 @@
+body {
+    margin: 0px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: #f0f0f0;
+}
+
+.right {
+    width: 100%;
+}
+
+.right ul li {
+    list-style: none;
+}
+
+.right ul {
+    width: 320px;
+    justify-content: space-evenly;
+
+    display: flex;
+}
+
+.banner {
+    width: 100%;
+}
+
+.banner img {
+    width: 100%;
+}
+
+
+
+.cardMain {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    border: 2px solid red;
+    max-width: 150px;
+}
+
+.card img {
+    width: 130px;    
+}
+.card button {
+    width: 100%;
+    border: none;
+    background-color: aquamarine;
+}
+.card-down {
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 10px;
+}
