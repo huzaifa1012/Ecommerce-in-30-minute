@@ -1,5 +1,9 @@
 let hero = document.getElementById('hero')
 
+function buy() {
+    alert('wowo')
+}
+
 
 
 let func = async () => {
@@ -8,7 +12,6 @@ let func = async () => {
     console.log(data)
     data.map((data) => {
         return (
-
             hero.innerHTML += `<div class="cardMain">
             <div class="card">
                 <img src="${data.images[2]}">
@@ -16,10 +19,14 @@ let func = async () => {
                     <h3>${data.title.slice(0, 10)}</h3>
                     <h3> $${data.price}</h3>
                 </div>
-                <button>Buy Now</button>
+                <button onclick="buy()">Buy Now</button>
             </div>
             </div>`
         )
-    })
+    }
+    )
+
 }
 func()
+
+window.buy = buy
