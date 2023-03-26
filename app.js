@@ -1,7 +1,9 @@
 let hero = document.getElementById('hero')
 
-function buy() {
-    alert('wowo')
+let mod = document.getElementById('modaling')
+function buy(ab) {
+    console.log(ab)
+
 }
 
 
@@ -23,7 +25,7 @@ let func = async () => {
                     <h6>${data.title.slice(0, 10)}</h6>
                     <h6> $${data.price}</h6>
                 </div>
-                <button onclick="buy()">Buy Now</button>
+                <button onclick="buy('${data.title}')">Buy Now</button>
             </div>
             </div>`
         )
